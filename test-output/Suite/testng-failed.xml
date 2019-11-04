@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="qaclickacademy.post_delete_XML">
+        <methods>
+          <include name="getTest"/>
+        </methods>
+      </class> <!-- qaclickacademy.post_delete_XML -->
+      <class name="qaclickacademy.Demo">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- qaclickacademy.Demo -->
+      <class name="qaclickacademy.Jira_Test">
+        <methods>
+          <include name="getData"/>
+          <include name="getJiraTest"/>
+        </methods>
+      </class> <!-- qaclickacademy.Jira_Test -->
+      <class name="qaclickacademy.json_advanced">
+        <methods>
+          <include name="getTest"/>
+        </methods>
+      </class> <!-- qaclickacademy.json_advanced -->
+      <class name="qaclickacademy.post_delete_JSON">
+        <methods>
+          <include name="getTest"/>
+        </methods>
+      </class> <!-- qaclickacademy.post_delete_JSON -->
+      <class name="qaclickacademy.post_test">
+        <methods>
+          <include name="getTest"/>
+        </methods>
+      </class> <!-- qaclickacademy.post_test -->
+      <class name="qaclickacademy.OAuth_Demo">
+        <methods>
+          <include name="getOAuthData"/>
+        </methods>
+      </class> <!-- qaclickacademy.OAuth_Demo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

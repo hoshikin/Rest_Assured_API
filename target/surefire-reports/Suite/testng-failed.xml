@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="qaclickacademy.post_delete_XML">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- qaclickacademy.post_delete_XML -->
+      <class name="qaclickacademy.Demo">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- qaclickacademy.Demo -->
+      <class name="qaclickacademy.post_delete_JSON">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- qaclickacademy.post_delete_JSON -->
+      <class name="qaclickacademy.Jira_Test">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- qaclickacademy.Jira_Test -->
+      <class name="qaclickacademy.OAuth_Demo">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- qaclickacademy.OAuth_Demo -->
+      <class name="qaclickacademy.json_advanced">
+        <methods>
+          <include name="getData"/>
+          <include name="getTest"/>
+        </methods>
+      </class> <!-- qaclickacademy.json_advanced -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

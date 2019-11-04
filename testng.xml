@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="qaclickacademy.Jira_Test"/>
+      <class name="qaclickacademy.post_delete_XML"/>
+      <class name="qaclickacademy.post_test"/>
+      <class name="qaclickacademy.OAuth_Demo"/>
+      <class name="qaclickacademy.post_delete_JSON"/>
+      <class name="qaclickacademy.json_advanced"/>
+      <class name="qaclickacademy.Demo"/>
+      <class name="qaclickacademy.HashMap_Demo"/>
+      <class name="qaclickacademy.Excel_Data_Driven"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

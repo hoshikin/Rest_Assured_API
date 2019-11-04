@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11474" started-at="2019-11-04T13:40:48Z" finished-at="2019-11-04T13:40:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11474" started-at="2019-11-04T13:40:48Z" finished-at="2019-11-04T13:40:59Z">
+      <class name="qaclickacademy.json_advanced">
+        <test-method status="PASS" signature="getData()[pri:0, instance:qaclickacademy.json_advanced@589838eb]" name="getData" is-config="true" duration-ms="27" started-at="2019-11-04T19:10:48Z" finished-at="2019-11-04T19:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getTest()[pri:0, instance:qaclickacademy.json_advanced@589838eb]" name="getTest" duration-ms="11421" started-at="2019-11-04T19:10:48Z" finished-at="2019-11-04T19:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+      </class> <!-- qaclickacademy.json_advanced -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
